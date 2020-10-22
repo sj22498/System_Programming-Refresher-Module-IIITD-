@@ -1,0 +1,61 @@
+        -:    0:Source:q2a.c
+        -:    0:Graph:q2a.gcno
+        -:    0:Data:-
+        -:    0:Runs:0
+        -:    0:Programs:0
+        -:    1://Shivam Joshi
+        -:    2:#include <stdio.h>
+        -:    3:
+function main called 0 returned 0% blocks executed 0%
+    #####:    4:int main (void)
+        -:    5:{
+        -:    6:
+        -:    7:	int i, total, num;
+        -:    8:
+    #####:    9:	total = 0;
+        -:   10:
+    #####:   11:	for (i = 0; i < 10; i++)
+branch  0 never executed
+branch  1 never executed
+    #####:   12:		total += i;
+        -:   13:        
+    #####:   14:	if (total != 45)
+branch  0 never executed
+branch  1 never executed
+    #####:   15:	    	printf ("Failure\n");
+call    0 never executed
+        -:   16:        else
+    #####:   17:	        printf ("Success\n");
+call    0 never executed
+        -:   18:
+    #####:   19:	num = 0;	
+    #####:   20:	switch(num) {
+branch  0 never executed
+branch  1 never executed
+branch  2 never executed
+branch  3 never executed
+branch  4 never executed
+    #####:   21:	case 1: printf("1");
+call    0 never executed
+    #####:   22:		break;
+        -:   23:
+    #####:   24:	case 2: printf("2");
+call    0 never executed
+    #####:   25:		break;
+        -:   26:	
+    #####:   27:	case 3: printf("3");
+call    0 never executed
+    #####:   28:		break;
+        -:   29:	
+    #####:   30:	case 4: printf("4");
+call    0 never executed
+    #####:   31:		break;
+        -:   32:
+    #####:   33:	default: printf("0");
+call    0 never executed
+    #####:   34:		break;
+        -:   35:				
+        -:   36:	}
+    #####:   37:	return 0;
+        -:   38:}
+        -:   39:
