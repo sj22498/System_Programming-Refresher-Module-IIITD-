@@ -1,2 +1,2 @@
-# System_Programming-Refresher-Module-IIITD-
+# System_Programming[Refresher_Module-IIITD]
 This repository contains Lab-Practical and Assignment Questions
